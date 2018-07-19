@@ -1,0 +1,114 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.status-bar{
+  background-color: #394B59;
+  padding-bottom: 15px;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 667px;
+  width:375px;
+  min-height: 667px;
+  min-width: 375px;
+
+}
+.arrow-left{
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  padding: 0 65px 0 15px;
+}
+.mapicon{
+  box-sizing: border-box;
+  display: inline-block;
+  color: white;
+  float: right;
+  padding-right: 15px;
+}
+
+nav {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px 0 20px 0px;
+  position: fixed;
+  background-color: #394B59;
+  width: 375px;
+}
+
+.station{
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+.restaurant-list {
+  box-sizing: border-box;
+  padding-top: 77px;
+}
+
+.busline {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #E5E5E5;
+  padding: 20px 0px 20px 15px;
+  border-bottom: 1px solid #737373;
+  width: 100%;
+  align-content: center;
+}
+.busline:hover{
+  background-color: #aaa;
+}
+.content {
+  box-sizing: border-box;
+  display: inline-block;
+  width:80%;
+}
+
+.content h1{
+  font-size: 2em;
+  font-weight: 700;
+  color: #394B59;
+  line-height: 1.5em;
+}
+
+.content h3{
+  font-size: 125%;
+  font-weight: 500;
+  line-height: 2em;
+  color: 394B59;
+}
+
+.arrow {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width:20%;
+  color: #14CCBD;
+}
+.arrow h1{
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  color: 394B59;
+}
+
+.outofservice{
+  background-color: #aaa;
+}
